@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/home_black_18dp"
+        android:title="@string/bottomhome"
+        />
+    <item
+        android:id="@+id/bottom_cart"
+        android:icon="@drawable/shopping_cart_black_24dp"
+        android:title="@string/bottomcart" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/person_black_18dp"
+        android:title="@string/bottomprofile" />
+</menu>

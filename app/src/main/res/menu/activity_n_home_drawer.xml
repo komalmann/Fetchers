@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:icon="@drawable/home_black_18dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_order"
+
+            android:icon="@drawable/add_black_18dp"
+            android:title="@string/order" />
+        <item
+            android:id="@+id/nav_offer"
+
+            android:icon="@drawable/notes_black_18dp"
+            android:title="@string/offer_zone" />
+
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/customer_support"
+                android:icon="@drawable/contact_support_black_18dp"
+                android:title="@string/customer_support" />
+
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/star_black_18dp"
+                android:title="@string/rate_us" />
+
+            <item
+                android:id="@+id/share_us"
+                android:icon="@drawable/share_black_18dp"
+                android:title="@string/share" />
+
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/error_outline_black_18dp"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+</menu>
